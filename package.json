@@ -1,0 +1,37 @@
+{
+    "title": "Bitrixcasts - gluttonous latoute",
+    "name": "bitrixcasts-gluttonous-layout",
+    "version": "1.0.0",
+    "scripts": {
+        "build": "node_modules/.bin/gulp build",
+        "start": "node_modules/.bin/gulp watch"
+    },
+    "description": "Верстка учебного проекта по фреймворку 1С-Битрикс. Для курса обучающих курсов проекта **Bitrixcasts**.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Волков Михаил",
+            "email": "mvsvolkov@mvsvolkov.ru",
+            "homepage": "https://mvsvolkov.ru",
+            "role": "Creator"
+        }
+    ],
+    "dependencies": {
+        "@fancyapps/fancybox": "^3.5.7",
+        "@fortawesome/fontawesome-free": "5.13.1",
+        "bootstrap": "4.5.0",
+        "jquery": "3.5.1"
+    },
+    "devDependencies": {
+        "browser-sync": "2.26.7",
+        "del": "5.1.0",
+        "gulp": "4.0.2",
+        "gulp-autoprefixer": "7.0.1",
+        "gulp-clean-css": "4.3.0",
+        "gulp-header": "2.0.9",
+        "gulp-plumber": "^1.2.1",
+        "gulp-rename": "2.0.0",
+        "gulp-sass": "4.1.0",
+        "merge-stream": "2.0.0"
+    }
+}

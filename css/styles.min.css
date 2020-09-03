@@ -1,0 +1,5 @@
+/*!
+ * Start Bootstrap - Bitrixcasts - gluttonous latoute v1.0.0 ()
+ * Copyright 2013-2020 
+ * Licensed under MIT (https://github.com/StartBootstrap/bitrixcasts-gluttonous-layout/blob/master/LICENSE)
+ */body{font-family:Roboto,'Helvetica Neue',Helvetica,Arial,sans-serif}h1,h2,h3,h4,h5,h6{font-family:Roboto,'Helvetica Neue',Helvetica,Arial,sans-serif;font-weight:700}body{padding-top:56px;display:flex;min-height:100vh;flex-direction:column;min-width:320px}.main-wrapper{flex:1}.avatar-link{padding-top:0;padding-bottom:0}.avatar-img{height:40px;width:40px}.img-responsive{position:relative;max-width:100%;max-height:100%;top:50%;left:50%;transform:translateX(-50%) translateY(-50%)}.carousel-control-next,.carousel-control-prev,.carousel-inner{background-color:rgba(0,0,0,.3)}.carousel-caption{background-color:rgba(0,0,0,.3);left:30%;right:30%;padding-left:20px;padding-right:20px}@media (max-width:1047px){.carousel-caption{left:15%;right:15%}}.carousel-item{height:65vh;min-height:300px;background:no-repeat center center scroll;background-size:cover}.portfolio-item{margin-bottom:30px}.dropdown-toggle::after{vertical-align:baseline}
