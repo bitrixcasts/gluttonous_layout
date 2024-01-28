@@ -40,5 +40,6 @@ npm run start
 | dinosaurs.html     | Список динозавров                 |
 | faq.html           | FAQ                               |
 | index.html         | Главная страница                  |
+| personal.html      | Личный кабинет                    |
 | register.html      | Регистрация                       |
 | shelter.html       | Приют динозавриков                |
