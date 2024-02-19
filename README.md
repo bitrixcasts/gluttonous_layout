@@ -8,7 +8,7 @@ Copyright &copy; Обжорозаврик 2020-2023.
 
 ### Youtube
 
-Ссылка на [Youtube канал](https://www.youtube.com/channel/UCXsxC7FoQclWTy9PNpy0ANQ)
+Ссылка на [Youtube канал](https://www.youtube.com/@bitrixcasts)
 
 
 ### Запустить проект
@@ -43,3 +43,4 @@ npm run start
 | personal.html      | Личный кабинет                    |
 | register.html      | Регистрация                       |
 | shelter.html       | Приют динозавриков                |
+| items.html         | Предметы                          |

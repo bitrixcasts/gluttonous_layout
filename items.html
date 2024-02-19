@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Волков Михаил">
+
+    <title>Обжорозаврик - Приюти и покорми динозаврика</title>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="vendor/jquery.fancybox/jquery.fancybox.min.css" rel="stylesheet">
+    <link href="vendor/fontawesome-free/css/all.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+    
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="vendor/jquery.fancybox/jquery.fancybox.min.js"></script>
+    <script src="js/script.js"></script>
+
+</head>
+
+<body>
+<div class="main-wrapper" id="app">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Обжорозаврик <i class="fas fa-dragon"></i></a>
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="dinosaurs.html">Динозавры</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="blog.html">Блог</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="shelter.html">Приют динозавриков</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="btn btn-secondary" href="auth.html">Войти</a>
+                        <a class="btn btn-outline-secondary" href="register.html">Зарегистрироваться</a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="avatar-link nav-link dropdown-toggle" href="#" id="navbarDropdownBlog" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <img src="images/avartar-dinosaur-100.png"  class="rounded-circle bg-white avatar-img" alt="Аватар">
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownBlog">
+                            <a class="dropdown-item" href="personal.html">Личный кабинет</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Выйти</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+
+        <h1 class="mt-4 mb-3">Предметы</h1>
+
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item">
+                <a href="index.html">Главная</a>
+            </li>
+            <li class="breadcrumb-item active">Предметы</li>
+        </ol>
+
+        <div class="row">
+            <div class="col-12">
+                <ul class="nav nav-tabs justify-content-center">
+                    <li class="nav-item" role="presentation">
+                        <a class="nav-link active" href="#" type="button">Все</a>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <a class="nav-link" href="#" type="button"><i class="fas fa-utensils text-success" aria-hidden="true"></i> Съедобные</a>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <a class="nav-link" href="#" type="button"><i class="fas fa-exclamation-triangle text-danger " aria-hidden="true"></i> Несъедобные</a>
+                    </li>
+                </ul>
+                <div class="tab-content">
+                    <div class="tab-pane show active">
+                        <div class="row mt-4">
+                            <div class="col-12">
+
+                                <div class="row">
+                                    <div class="col-12">
+                                        <div class="card mb-3">
+                                            <div class="row no-gutters">
+                                                <div class="col-md-2 text-center">
+                                                    <img src="images/exam/blue_table.jpg" alt="Image" style="max-width: 128px; max-height: 128px;">
+                                                </div>
+                                                <div class="col-md-10">
+                                                    <div class="card-body">
+                                                        <h5 class="card-title"><strong>Уникальный стол</strong> <small>@Синий</small> <i class="fas fa-exclamation-triangle text-danger" title="Не ешьте это"></i></h5>
+                                                        <div class="card-text">
+                                                            Такой стол не найти нигде. Мы знаем, мы искали. Только у нас, только сейчас.
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="card mb-3">
+                                            <div class="row no-gutters">
+                                                <div class="col-md-2 text-center">
+                                                    <img src="images/exam/ananas.jpg" alt="Image" style="max-width: 128px; max-height: 128px;">
+                                                </div>
+                                                <div class="col-md-10">
+                                                    <div class="card-body">
+                                                        <h5 class="card-title"><strong>Ананас</strong> <small>@Желтый</small>  <i class="fas fa-utensils text-success" title="Съедобно"></i></h5>
+                                                        <div class="card-text">
+                                                            <p>Пока вы едите ананас - он ест вас!</p>
+
+                                                            <p>Содержащиеся в ананасе биологически активные вещества наделяют его уникальными целебными свойствами. Во-первых, он стимулирует пищеварение, повышая ферментативную активность желудочного сока, поэтому при обильных приемах пищи рекомендуется выпивать стакан ананасового сока или съедать ломтик свежего ананаса. Во-вторых, ананас понижает артериальное давление, разжижает кровь и предотвращает развитие множества опасных заболеваний сердечно-сосудистой системы, таких, как, атеросклероз, тромбоз сосудов, инсульт и инфаркт миокарда. Кроме того, ананас эффективен при лечении артрита, бронхита, пневмонии, различных инфекционных заболеваний и болезней центральной нервной системы.</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <h5>Всего предметов на вкладке: 2</h5>
+
+                                <ul class="pagination justify-content-center mt-4">
+                                    <li class="page-item">
+                                        <a class="page-link" href="#" aria-label="Назад">
+                                            <span aria-hidden="true">&laquo;</span>
+                                            <span class="sr-only">Назад</span>
+                                        </a>
+                                    </li>
+                                    <li class="page-item">
+                                        <a class="page-link" href="#">1</a>
+                                    </li>
+                                    <li class="page-item">
+                                        <a class="page-link" href="#">2</a>
+                                    </li>
+                                    <li class="page-item">
+                                        <a class="page-link" href="#">3</a>
+                                    </li>
+                                    <li class="page-item">
+                                        <a class="page-link" href="#" aria-label="Вперед">
+                                            <span aria-hidden="true">&raquo;</span>
+                                            <span class="sr-only">Вперед</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<footer class="py-5 bg-dark">
+    <div class="container text-center mb-4">
+        <div class="row">
+            <div class="col-md-4">
+                <div><a href="index.html" class="text-white">На главную</a></div>
+            </div>
+            <div class="col-md-4">
+                <div><a href="about.html" class="text-white">О компании</a></div>
+                <div><a href="faq.html" class="text-white">Вопросы и ответы</a></div>
+            </div>
+            <div class="col-md-4">
+                <div><a href="catalog.html" class="text-white">Каталог</a></div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <p class="m-0 text-center text-white">
+            Copyright &copy; Обжорозаврик 2020-2023.
+            Создано для проекта <a href="https://bitrixcasts.ru" rel="nofollow" target="_blank">BitrixCasts</a>.
+            Автор <a href="https://mvsvolkov.ru" rel="nofollow" target="_blank">Волков Михаил</a> <i class="fas fa-heart text-danger"></i>
+        </p>
+    </div>
+</footer>
+</body>
+
+</html>
